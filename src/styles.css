@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  @apply text-2xl md:text-base uppercase md:capitalize font-josefin-sans md:font-bold
+}
+
+.card {
+  @apply h-28 min-h-max md:h-[450px] bg-cover md:bg-[center_top_0rem] md:bg-no-repeat hover:text-black hover:bg-white/30 
+}
+
+.creation-heading{
+  @apply px-5 py-3 md:pb-8 lg:pl-14 w-full h-full flex flex-col justify-end text-2xl leading-6 hover:bg-white hover:bg-[rgba(255,255,255,0.7)] cursor-pointer
+}
+
+.btn {
+  @apply text-black text-xs  font-alata  border border-black py-2 px-7 tracking-[0.3rem] hover:text-white hover:bg-black transition duration-300 ease-out
+}
+
+.link {
+  @apply relative  after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:translate-x-[-50%] after:w-1/2 after:border-b-2 after:border-transparent after:hover:border-white
+}
+
+.social {
+    @apply pb-2 border-b-2 border-transparent hover:border-white
+}

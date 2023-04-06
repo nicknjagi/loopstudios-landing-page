@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-white">
+  <div class="relative px-5 py-8 md:py-16 md:mb-[10rem] md:h-[640px] bg-hero-mobile bg-cover bg-center bg-no-repeat md:bg-hero-desktop">
+    <header class="flex flex-col md:flex-row md:justify-between mx-auto max-w-6xl transition "> 
+      <div class="w-32 md:w-72">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+
+      <button id="menu" class="absolute top-8 right-5 md:hidden">
+        <img id="open" src="./images/icon-hamburger.svg" alt="menu open icon">
+        <img id="close" class="hidden fixed right-5 z-50 animate-[delay_500ms_ease-out]" src="./images/icon-close.svg" alt="menu close icon">
+      </button>
+
+      <nav id="nav" class="hidden md:block bg-black md:bg-transparent w-screen h-screen md:h-auto fixed md:relative top-0 left-0 pl-5 z-10 animate-[slide_500ms_ease-out]">
+        <div class="w-36 fixed md:hidden top-8 ">
+          <img src="./images/logo.svg" alt="logo">
+        </div>
+
+          <ul class="fixed md:relative flex flex-col md:flex-row h-screen md:h-auto justify-center md:justify-end gap-6 ">
+            <li><a class="nav-link link" href="#">About</a></li>
+            <li><a class="nav-link link" href="#">Careers</a></li>
+            <li><a class="nav-link link" href="#">Events</a></li>
+            <li><a class="nav-link link" href="#">Products</a></li>
+            <li><a class="nav-link link" href="#">Support</a></li>
+          </ul>
+        
+      </nav>
+    </header>
+
+    <div class="h-intro-h flex flex-col justify-center max-w-6xl mx-auto">
+      <h1 class="p-5 md:p-8 font-josefin-sans font-light border-2 text-h1 md:text-7xl uppercase ml-0 max-w-sm md:max-w-[650px]">Immersive experiences that deliver</h1>
+    </div>
+  </div>
+
+  <section class="relative my-10  px-5  text-center md:text-start md:flex md:justify-between  max-w-6xl mx-auto">
+
+    <div class="bg-interactive-mobile md:bg-interactive-desktop bg-cover mx-auto md:ml-0 w-[330px] md:w-[800px] h-[225px] md:h-[500px] md:w-720px z-0">
+    </div>
+
+    <div class="bg-white md:absolute py-10 md:py-0 md:pl-[6rem] md:pt-[6rem] md:max-w-[515px] lg:w-[515px] md:self-end md:right-0">
+      <h2 class="text-black text-3xl md:text-4xl uppercase font-josefin-sans pb-5">The leader in interactive VR</h2>
+      <p class="text-v-dark-gray font-alata text-sm">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+    </div>
+  </section>
+
+  <section class="px-5 md:px-4 md:mt-[10rem] grid grid-rows-[10] grid-cols-1 gap-6 md:gap-8 font-josefin-sans uppercase md:grid-cols-4 md:grid-rows-auto max-w-6xl mx-auto">
+
+    <div class="pb-7 md:mb-8 md:h-0 md:col-start-1 md:col-span-3 row-start-1 row-span-1">
+      <h2 class="text-black text-center md:text-start text-3xl ">Our creations</h2>
+    </div>
+
+    <div class="row-start-n1 md:h-full md:row-start-1 md:col-start-4 justify-self-end"><a href="#" class="btn">See all</a></div>
+
+    <div class="card bg-deep-earth md:bg-deep-earth-desktop ">
+      <h3 class="creation-heading">Deep <span class="block">earth</span></h3>
+    </div>
+    <div class="card bg-night-arcade md:bg-night-arcade-desktop ">
+      <h3 class="creation-heading">Night <span class="block">arcade</span></h3>
+    </div>
+    <div class="card bg-soccer-team md:bg-soccer-team-desktop ">
+      <h3 class="creation-heading">Soccer <span class="block">team VR</span></h3>
+    </div>
+    <div class="card bg-grid md:bg-grid-desktop ">
+      <h3 class="creation-heading">The <span class="block">grid</span></h3>
+    </div>
+    <div class="card bg-from-above md:bg-from-above-desktop ">
+      <h3 class="creation-heading">From up <span class="block">above VR</span></h3>
+    </div>
+    <div class="card bg-pocket-borealis md:bg-pocket-borealis-desktop ">
+      <h3 class="creation-heading">Pocket <span class="block">borealis</span></h3>
+    </div>
+    <div class="card bg-curiosity md:bg-curiosity-desktop ">
+      <h3 class="creation-heading">The <span class="block">curiosity</span></h3>
+    </div>
+    <div class="card bg-fisheye md:bg-fisheye-desktop ">
+      <h3 class="creation-heading">Make it <span class="block">fisheye</span></h3>
+    </div>
+  </section>
+
+  <footer class="bg-black text-center py-10 mt-[10rem] ">
+    <div class="flex flex-col md:px-4 md:grid md:grid-cols-2 items-center gap-6 md:gap-8 max-w-6xl mx-auto">
+      <div class="logo ">
+          <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="md:col-start-1 md:row-start-2">
+        <ul class="flex flex-col md:flex-row gap-5 mb-4 md:mb-0 ">
+          <li><a class="link" href="#">About</a></li>
+          <li><a class="link" href="#">Careers</a></li>
+          <li><a class="link" href="#">Events</a></li>
+          <li><a class="link" href="#">Products</a></li>
+          <li><a class="link" href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="flex gap-4 md:col-start-2 md:row-start-1 md:justify-end">
+        <a class="social" href="#"><img src="./images/icon-facebook.svg" alt="facebook"></a>
+        <a class="social" href="#"><img src="./images/icon-twitter.svg" alt="twitter"></a>
+        <a class="social" href="#"><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
+        <a class="social" href="#"><img src="./images/icon-instagram.svg" alt="instagram"></a>
+      </div>
+      <div class="md:text-right">
+        <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
