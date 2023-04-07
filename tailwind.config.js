@@ -4,41 +4,41 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-mobile': "url('../public/images/mobile/image-hero.jpg')",
-        'hero-desktop': "url('../public/images/desktop/image-hero.jpg')",
-        'interactive-mobile': "url('../public/images/mobile/image-interactive.jpg')",
-        'interactive-desktop':  "url('../public/images/desktop/image-interactive.jpg')",
+        'hero-mobile': "url('./images/mobile/image-hero.jpg')",
+        'hero-desktop': "url('./images/desktop/image-hero.jpg')",
+        'interactive-mobile': "url('./images/mobile/image-interactive.jpg')",
+        'interactive-desktop':  "url('./images/desktop/image-interactive.jpg')",
         'deep-earth':
-          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-deep-earth.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-deep-earth.jpg')",
         'deep-earth-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-deep-earth.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-deep-earth.jpg')",
         'night-arcade':
-          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-night-arcade.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-night-arcade.jpg')",
         'night-arcade-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-night-arcade.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-night-arcade.jpg')",
         'soccer-team':
-          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-soccer-team.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-soccer-team.jpg')",
         'soccer-team-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-soccer-team.jpg')",
-        'grid': "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-grid.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-soccer-team.jpg')",
+        'grid': "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-grid.jpg')",
         'grid-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-grid.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-grid.jpg')",
         'from-above':
-          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-from-above.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-from-above.jpg')",
         'from-above-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-from-above.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-from-above.jpg')",
         'pocket-borealis':
-          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-pocket-borealis.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-pocket-borealis.jpg')",
         'pocket-borealis-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-pocket-borealis.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-pocket-borealis.jpg')",
         curiosity:
-          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-curiosity.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-curiosity.jpg')",
         'curiosity-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-curiosity.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-curiosity.jpg')",
         fisheye:
-          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/mobile/image-fisheye.jpg')",
+          "linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/mobile/image-fisheye.jpg')",
         'fisheye-desktop':
-          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('../public/images/desktop/image-fisheye.jpg')",
+          "linear-gradient(360deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%), url('./images/desktop/image-fisheye.jpg')",
       },
       backgroundSize: {
         '100%': '100% 100%',
